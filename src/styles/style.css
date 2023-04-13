@@ -72,16 +72,16 @@ h3 {
   position: relative;
 }
 
-.header::before {
+.main_bkg::before {
   content: '';
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
   width: 100%;
-  height: 914px;
+  height: 100%;
   opacity: 0.1;
 }
 
@@ -109,8 +109,8 @@ h3 {
   width: 50%;
 }
 
-.wrp_padding {
-  padding: 0 0 0 30px;
+.wrp_30 {
+  margin: 0 0 0 30px;
 }
 
 .left_side p:nth-last-child(2) {
@@ -174,10 +174,6 @@ h3 {
   color: #fff;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
 
 .navigation_list {
   display: flex;
@@ -244,4 +240,70 @@ ul li {
 .navigation_item:hover .navigation_item_txt {
   color: #fff;
 
+}
+
+/* ikea-effect */
+.ikea-effect {
+  box-sizing: border-box;
+  padding: 100px 0;
+  background-color: #F5F4F0;
+  position: relative;
+}
+
+.ikea-effect-pict {
+  vertical-align: middle;
+}
+
+.ikea-effect-pict-div {
+  z-index: 2;
+  box-shadow: 0px 16px 32px 0px #00000026;
+
+}
+
+.title_50 {
+  font-size: 24px;
+  line-height: 29px;
+  color: #908D8B;
+}
+
+.subtitle_60 {
+  font-family: Neucha;
+  font-size: 60px;
+  line-height: 72px;
+  margin: 0 0 30px 0;
+
+}
+
+.subtitle_34 {
+  font-family: Neucha;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 41px;
+  margin: 0;
+}
+
+.wrp_100 {
+  margin: 0 0 100px 0;
+}
+
+.how_appears {
+  box-sizing: border-box;
+  margin: 0 0 20px 0;
+  padding: 5px 0 5px 10px;
+}
+
+.brown {
+  background-color: #b09a81;
+}
+
+.how_appears_title {
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff
 }
