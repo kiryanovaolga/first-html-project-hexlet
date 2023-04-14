@@ -21,12 +21,6 @@ a {
 }
 
 
-ul,
-li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 body {
   font-size: 16px;
@@ -46,6 +40,7 @@ body {
 h1,
 h2,
 h3 {
+  color: #fe8A02;
   font-family: Neucha;
   font-weight: 400;
   line-height: 1.2em;
@@ -89,9 +84,8 @@ h3 {
   margin-bottom: 185px;
 }
 
-.orange {
-  color: #FE8A02;
-
+.black {
+  color: #2a2626;
 }
 
 .header_img {
@@ -179,16 +173,25 @@ h3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
-
+  margin: 0;
+  padding: 0;
 }
 
-ul li {
+.navigation_list .navigation_title {
   width: 350px;
-  min-height: 323px;
+  padding: 24px;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0
+}
+
+/* ul li {  */
+.navigation_list .navigation_item {
+  width: 350px;
   padding: 24px;
   box-sizing: border-box;
   background: #F5F4F0;
+  list-style: none;
 
 }
 
@@ -250,11 +253,11 @@ ul li {
   position: relative;
 }
 
-.ikea-effect-pict {
+.pictures {
   vertical-align: middle;
 }
 
-.ikea-effect-pict-div {
+.pictures-div {
   z-index: 2;
   box-shadow: 0px 16px 32px 0px #00000026;
 
@@ -292,8 +295,9 @@ ul li {
   padding: 5px 0 5px 10px;
 }
 
-.brown {
+.brown_bkg {
   background-color: #b09a81;
+  /*фон. цвет для заголовка как появляется, светлая  модель  */
 }
 
 .how_appears_title {
@@ -306,4 +310,32 @@ ul li {
 
 .white {
   color: #fff
+    /*цвет для заголовка 'как появляется' на темном фоне   */
+}
+
+.brown {
+  color: #b09a81;
+  /*цвет для заголовка 'как появляется' на светлом фоне   */
+
+}
+
+
+
+/* Преждевременная оптимизация */
+#premature-optimization {
+  box-sizing: border-box;
+  position: relative;
+  padding: 100px 0;
+  background: #b09a81;
+  color: #fff;
+}
+
+.white_50 {
+  color: #d7ccc0;
+  /*цвет для заголовка 'когнитивные искажения' на темном фоне   */
+}
+
+.white_bkg {
+  background: #fff;
+  /*фоновый цвет для заголовка 'как появляется' темная модель  */
 }
