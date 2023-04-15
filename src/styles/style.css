@@ -353,3 +353,11 @@ h3 {
   background: #f5f4f0;
 
 }
+
+/* Гиперболическое обесценивание */
+
+
+.hyperbolic-depreciation {
+  position: relative;
+  background: #b09a81;
+}
