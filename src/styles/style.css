@@ -361,3 +361,9 @@ h3 {
   position: relative;
   background: #b09a81;
 }
+
+/* Ошибка планирования */
+.errors-in-planning {
+  position: relative;
+  background: #f5f4f0;
+}
