@@ -67,7 +67,7 @@ h3 {
   position: relative;
 }
 
-.main_bkg::before {
+.main-bkg::before {
   content: '';
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ h3 {
   opacity: 0.1;
 }
 
-.header_title {
+.header-title {
   margin-bottom: 185px;
 }
 
@@ -88,35 +88,36 @@ h3 {
   color: #2a2626;
 }
 
-.header_img {
+.header-img {
   position: absolute;
   height: 525px;
   top: 55px;
   right: -270px;
 }
 
-.flex_txt {
+.flex-txt {
   display: flex;
+  justify-content: space-between;
 }
 
-.width_50 {
+.width-50 {
   width: 50%;
 }
 
-.padding_100 {
+.padding-100 {
   padding: 100px 0;
 }
 
-.wrp_30 {
+.wrp-30 {
   margin: 0 0 0 30px;
 }
 
-.left_side p:nth-last-child(2) {
+.left-side p:nth-last-child(2) {
   margin-bottom: 40px;
 }
 
 
-.header_button {
+.header-button {
   display: inline-block;
   box-sizing: border-box;
   text-transform: uppercase;
@@ -128,7 +129,7 @@ h3 {
 
 }
 
-.header_button:hover {
+.header-button:hover {
   background: #EA7600;
   text-decoration: none;
 }
@@ -139,19 +140,19 @@ h3 {
   /* padding: 100px 0; */
 }
 
-.about_title {
+.about-title {
   text-align: center;
   margin: 0 0 27px 0;
 }
 
-.about_subt {
+.about-subt {
   font-size: 16px;
   text-align: center;
   margin: 0 0 -170px 0;
 
 }
 
-.video_div {
+.video-div {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
   margin: 0 auto;
   text-align: center;
@@ -167,13 +168,13 @@ h3 {
 
 }
 
-.navigation_title {
+.navigation-title {
   font-size: 52px;
   color: #fff;
 }
 
 
-.navigation_list {
+.navigation-list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -181,16 +182,15 @@ h3 {
   padding: 0;
 }
 
-.navigation_list .navigation_title {
+.navigation-list .navigation-title {
   width: 350px;
-  padding: 24px;
   box-sizing: border-box;
   list-style: none;
-  margin: 0
+  margin: 0 0 20px 0;
 }
 
 /* ul li {  */
-.navigation_list .navigation_item {
+.navigation-list .navigation-item {
   width: 350px;
   padding: 24px;
   box-sizing: border-box;
@@ -199,7 +199,7 @@ h3 {
 
 }
 
-.navigation_item:nth-child(-n+3) {
+.navigation-item:nth-child(-n+3) {
   margin-bottom: 20px;
 }
 
@@ -207,44 +207,44 @@ h3 {
 /* padding: 0; */
 /* } */
 
-.navigation_title {
+.navigation-title {
   background: none;
   margin: 0 0 20px 0;
   padding: 0;
 }
 
-.navigation_title_52 {
+.navigation-title-52 {
   font-size: 52px;
 }
 
-.navigation_item_num {
+.navigation-item-num {
   font-size: 64px;
   color: #42413C;
   margin: 0 0 40px 0;
 }
 
-.navigation_item_title {
+.navigation-item-title {
   margin: 0 0 16px 0;
 }
 
-.navigation_item_txt {
+.navigation-item-txt {
   color: #2A2626;
   margin: 0;
 }
 
-.navigation_item:hover {
+.navigation-item:hover {
   background-color: #FE8A02;
 }
 
-.navigation_item:hover .navigation_item_title {
+.navigation-item:hover .navigation-item-title {
   color: #fff;
 }
 
-.navigation_item:hover .navigation_item_num {
+.navigation-item:hover .navigation-item-num {
   color: #fff;
 }
 
-.navigation_item:hover .navigation_item_txt {
+.navigation-item:hover .navigation-item-txt {
   color: #fff;
 
 }
@@ -267,13 +267,13 @@ h3 {
 
 }
 
-.title_50 {
+.title-50 {
   font-size: 24px;
   line-height: 29px;
   color: #908D8B;
 }
 
-.subtitle_60 {
+.subtitle-60 {
   font-family: Neucha;
   font-size: 60px;
   line-height: 72px;
@@ -281,7 +281,7 @@ h3 {
 
 }
 
-.subtitle_34 {
+.subtitle-34 {
   font-family: Neucha;
   font-size: 34px;
   font-weight: 400;
@@ -289,22 +289,22 @@ h3 {
   margin: 0;
 }
 
-.wrp_100 {
+.wrp-100 {
   margin: 0 0 100px 0;
 }
 
-.how_appears {
+.how-appears {
   box-sizing: border-box;
   margin: 0 0 20px 0;
   padding: 5px 0 5px 10px;
 }
 
-.brown_bkg {
+.brown-bkg {
   background-color: #b09a81;
   /*фон. цвет для заголовка как появляется, светлая  модель  */
 }
 
-.how_appears_title {
+.how-appears-title {
   font-family: OpenSans;
   font-size: 14px;
   font-weight: 700;
@@ -334,12 +334,12 @@ h3 {
   color: #fff;
 }
 
-.white_50 {
+.white-50 {
   color: #d7ccc0;
   /*цвет для заголовка 'когнитивные искажения' на темном фоне   */
 }
 
-.white_bkg {
+.white-bkg {
   background: #fff;
   /*фоновый цвет для заголовка 'как появляется' темная модель  */
 }
@@ -366,4 +366,85 @@ h3 {
 .errors-in-planning {
   position: relative;
   background: #f5f4f0;
+}
+
+
+/* футер */
+.footer {
+  padding: 100px 0 111px 0;
+}
+
+.footer-info {
+  background: #42413c;
+  padding: 0 55px;
+  margin: 0 0 60px 0;
+  box-sizing: border-box;
+  align-items: center;
+  /* height: 190px; */
+}
+
+.footer-form {
+  padding: 40px 0 40px 0;
+}
+
+.footer-form-title {
+  margin: 0 0 9px 0;
+}
+
+
+.footer-info-link {
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.footer-info-input {
+  width: 423px;
+  height: 50px;
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+}
+
+
+
+::placeholder {
+  color: #757575;
+  font-size: 13.1px;
+}
+
+.footer-info-button {
+  width: 70px;
+  height: 50px;
+  background: #fe8A02;
+  border: none;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.footer-info-button:hover {
+  background-color: #ea7600;
+}
+
+.footer-info-button::before {
+  content: '';
+  background-image: url(../img/send.svg);
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 23px;
+  top: 13px;
+
+
+}
+
+.footer-info-agreement {
+  margin: 0;
+  font-size: 12px;
+}
+
+
+/* Контактная информация, футтер */
+.contact {
+  text-align: center;
 }
