@@ -16,11 +16,6 @@
   src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-a {
-  text-decoration: none;
-}
-
-
 
 body {
   font-size: 16px;
@@ -60,9 +55,9 @@ h3 {
   font-size: 34px;
 }
 
+
 .header {
   box-sizing: border-box;
-  /* padding: 100px 0; */
   background-color: #F5F4F0;
   position: relative;
 }
@@ -119,6 +114,7 @@ h3 {
 
 .header-button {
   display: inline-block;
+  width: 148px;
   box-sizing: border-box;
   text-transform: uppercase;
   color: #fff;
@@ -145,7 +141,12 @@ h3 {
   margin: 0 0 27px 0;
 }
 
+.about-title-display-block {
+  display: block;
+}
+
 .about-subt {
+  color: #212529;
   font-size: 16px;
   text-align: center;
   margin: 0 0 -170px 0;
@@ -164,7 +165,7 @@ h3 {
 
 .navigation {
   padding: 200px 0 100px 0;
-  background-color: #42413C;
+  background-color: #42413c;
 
 }
 
@@ -194,9 +195,13 @@ h3 {
   width: 350px;
   padding: 24px;
   box-sizing: border-box;
-  background: #F5F4F0;
+  background: #f5f4f0;
   list-style: none;
 
+}
+
+.navigation-item-link {
+  text-decoration: none;
 }
 
 .navigation-item:nth-child(-n+3) {
@@ -219,7 +224,7 @@ h3 {
 
 .navigation-item-num {
   font-size: 64px;
-  color: #42413C;
+  color: #42413c;
   margin: 0 0 40px 0;
 }
 
@@ -228,12 +233,12 @@ h3 {
 }
 
 .navigation-item-txt {
-  color: #2A2626;
+  color: #2a2626;
   margin: 0;
 }
 
 .navigation-item:hover {
-  background-color: #FE8A02;
+  background-color: #fe8A02;
 }
 
 .navigation-item:hover .navigation-item-title {
@@ -312,6 +317,10 @@ h3 {
   text-transform: uppercase;
 }
 
+.how-appears-txt {
+  margin: 0;
+}
+
 .white {
   color: #fff
     /*цвет для заголовка 'как появляется' на темном фоне   */
@@ -388,12 +397,12 @@ h3 {
 }
 
 .footer-form-title {
+  font-size: 18px;
   margin: 0 0 9px 0;
 }
 
 
 .footer-info-link {
-  text-decoration: underline;
   font-size: 12px;
 }
 
@@ -447,4 +456,9 @@ h3 {
 /* Контактная информация, футтер */
 .contact {
   text-align: center;
+  font-size: 14px;
+}
+
+.contact-link {
+  color: #1085c5;
 }
