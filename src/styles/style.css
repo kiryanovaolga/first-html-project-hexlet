@@ -75,12 +75,17 @@ h3 {
   color: #2a2626;
 }
 
+.position {
+  position: relative;
+}
+
 .header-img {
-  position: absolute;
   height: 525px;
-  top: 55px;
+  position: absolute;
+  bottom: 240px;
   right: -270px;
 }
+
 
 .flex-txt {
   display: flex;
