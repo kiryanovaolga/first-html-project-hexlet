@@ -135,6 +135,7 @@ h3 {
 
 .about-title {
   font-size: 60px;
+  margin: 0 0 27px 0;
   text-align: center;
 }
 
@@ -143,6 +144,7 @@ h3 {
 }
 
 .about-subt {
+  font-family: OpenSans;
   color: #212529;
   font-size: 16px;
   text-align: center;
