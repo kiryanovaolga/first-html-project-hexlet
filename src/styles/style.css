@@ -247,7 +247,7 @@ h3 {
 }
 
 /* ikea-effect */
-.ikea-effect {
+#ikea-effect {
   box-sizing: border-box;
   background: #f5f4f0;
   position: relative;
@@ -349,7 +349,7 @@ h3 {
 
 /* Искажение новизны */
 
-.distortion-of-novelty {
+#distortion-of-novelty {
   position: relative;
   background: #f5f4f0;
 
@@ -358,13 +358,13 @@ h3 {
 /* Гиперболическое обесценивание */
 
 
-.hyperbolic-depreciation {
+#hyperbolic-depreciation {
   position: relative;
   background: #b09a81;
 }
 
 /* Ошибка планирования */
-.errors-in-planning {
+#errors-in-planning {
   position: relative;
   background: #f5f4f0;
 }
