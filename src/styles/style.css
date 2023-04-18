@@ -1,11 +1,11 @@
 @font-face {
   font-family: Neucha;
-  src: url(../fonts/Neucha-Regular.ttf);
+  src: url("../fonts/Neucha-Regular.ttf");
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
 body {
@@ -54,7 +54,7 @@ h3 {
 
 .main-bkg::before {
   content: '';
-  background-image: url(../img/background.png);
+  background-image: url("../img/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -112,14 +112,14 @@ h3 {
   text-transform: uppercase;
   color: #fff;
   font-weight: 700;
-  background: #FE8A02;
+  background: #fe8a02;
   padding: 12px 24px;
   text-decoration: none;
 
 }
 
 .header-button:hover {
-  background: #EA7600;
+  background: #ea7600;
   text-decoration: none;
 }
 
@@ -396,7 +396,7 @@ h3 {
 
 .footer-info-button::before {
   content: '';
-  background-image: url(../img/send.svg);
+  background-image: url("../img/send.svg");
   width: 24px;
   height: 24px;
   position: absolute;
