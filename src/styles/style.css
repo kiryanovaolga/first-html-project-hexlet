@@ -1,13 +1,12 @@
 @font-face {
   font-family: Neucha;
-  src: url(../fonts/Neucha-Regular.ttf);
+  src: "url(../fonts/Neucha-Regular.ttf)";
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  src: "url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf)";
 }
-
 
 body {
   font-size: 16px;
