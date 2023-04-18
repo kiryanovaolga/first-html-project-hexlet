@@ -13,7 +13,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   font-family: OpenSans;
-  color: #2A2626;
+  color: #2a2626;
   line-height: 1.6em;
   margin: 0;
 }
@@ -27,12 +27,11 @@ body {
 h1,
 h2,
 h3 {
-  color: #fe8A02;
+  color: #fe8a02;
   font-family: Neucha;
   font-weight: 400;
   line-height: 1.2em;
   margin: 0;
-  /*доп стиль*/
 }
 
 h1 {
@@ -50,7 +49,7 @@ h3 {
 
 .header {
   box-sizing: border-box;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
   position: relative;
 }
 
@@ -86,7 +85,6 @@ h3 {
   right: -270px;
 }
 
-
 .flex-txt {
   display: flex;
   justify-content: space-between;
@@ -108,7 +106,6 @@ h3 {
   margin-bottom: 40px;
 }
 
-
 .header-button {
   display: inline-block;
   width: 148px;
@@ -127,8 +124,6 @@ h3 {
   text-decoration: none;
 }
 
-/* Что такое когнитивные искажения? */
-
 .about-title {
   font-size: 60px;
   margin: 0 0 30px 0;
@@ -146,7 +141,6 @@ h3 {
   line-height: 25.6px;
   text-align: center;
   margin: 0 0 -170px 0;
-
 }
 
 .video {
@@ -158,8 +152,6 @@ h3 {
   top: 200px
 }
 
-/* 5 когнитивных искажений о существовании которых стоит помнить */
-
 #navigation {
   padding: 200px 0 100px 0;
   background: #42413c;
@@ -170,7 +162,6 @@ h3 {
   font-size: 52px;
   color: #fff;
 }
-
 
 .navigation-list {
   display: flex;
@@ -230,7 +221,7 @@ h3 {
 }
 
 .navigation-item:hover {
-  background-color: #fe8A02;
+  background-color: #fe8a02;
 }
 
 .navigation-item:hover .navigation-item-title {
@@ -246,7 +237,6 @@ h3 {
 
 }
 
-/* ikea-effect */
 #ikea-effect {
   box-sizing: border-box;
   background: #f5f4f0;
@@ -260,14 +250,12 @@ h3 {
 .pictures-div {
   z-index: 2;
   box-shadow: 0px 16px 32px 0px #00000026;
-
-
 }
 
 .title-50 {
   font-size: 24px;
   line-height: 29px;
-  color: #908D8B;
+  color: #908d8b;
 }
 
 .subtitle-60 {
@@ -298,7 +286,6 @@ h3 {
 
 .brown-bkg {
   background: #b09a81;
-  /*фон. цвет для заголовка как появляется, светлая  модель  */
 }
 
 .how-appears-title {
@@ -315,18 +302,12 @@ h3 {
 
 .white {
   color: #fff
-    /*цвет для заголовка 'как появляется' на темном фоне   */
 }
 
 .brown {
   color: #b09a81;
-  /*цвет для заголовка 'как появляется' на светлом фоне   */
-
 }
 
-
-
-/* Преждевременная оптимизация */
 #premature-optimization {
   box-sizing: border-box;
   position: relative;
@@ -337,40 +318,28 @@ h3 {
 
 .white-50 {
   color: #d7ccc0;
-  /*цвет для заголовка 'когнитивные искажения' на темном фоне   */
 }
 
 .white-bkg {
   background: #fff;
-  /*фоновый цвет для заголовка 'как появляется' темная модель  */
 }
-
-
-
-/* Искажение новизны */
 
 #distortion-of-novelty {
   position: relative;
   background: #f5f4f0;
-
 }
-
-/* Гиперболическое обесценивание */
-
 
 #hyperbolic-depreciation {
   position: relative;
   background: #b09a81;
 }
 
-/* Ошибка планирования */
 #errors-in-planning {
   position: relative;
   background: #f5f4f0;
 }
 
 
-/* футер */
 .footer {
   padding: 100px 0 111px 0;
 }
@@ -381,7 +350,6 @@ h3 {
   margin: 0 0 60px 0;
   box-sizing: border-box;
   align-items: center;
-  /* height: 190px; */
 }
 
 .footer-form {
@@ -435,8 +403,6 @@ h3 {
   position: absolute;
   left: 23px;
   top: 13px;
-
-
 }
 
 .footer-info-agreement {
@@ -444,8 +410,6 @@ h3 {
   font-size: 12px;
 }
 
-
-/* Контактная информация, футтер */
 .contact {
   text-align: center;
   font-size: 14px;
