@@ -1,4 +1,4 @@
-<h1>My first start project at Frontend Developer Journey</h1>
+# The first HTML project on my Frontend Develop Journey
 <ul>
 <li>HTML</li>
 <li>CSS</li>
