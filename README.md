@@ -1,4 +1,4 @@
-<p style ='font-size:40'>My first start project at Frontend Developer Journey</p>
+<p>My first start project at Frontend Developer Journey</p>
 
 
 https://kiryanovaolga.github.io/layout-designer-project-58/src/
