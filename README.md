@@ -1,5 +1,9 @@
-<p>My first start project at Frontend Developer Journey</p>
-
+<h1>My first start project at Frontend Developer Journey</h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Flex</li>
+</ul>
 
 https://kiryanovaolga.github.io/layout-designer-project-58/src/
 
